@@ -6,7 +6,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## User Story
-<!-- Schrijf de user story waar je aan hebt gewerkt  -->
+Als student wil ik een mini-cursus kunnen volgen over Visual Thinking-principes zodat ik kan begrijpen wat Visual Thinking inhoud
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
