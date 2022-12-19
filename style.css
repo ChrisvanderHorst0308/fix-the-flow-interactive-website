@@ -112,14 +112,15 @@ header {
   
 }
 
-.topheader {
+header {
 color:rgb(14, 14, 174);
 font-family: var(--rigid);
 max-height: -webkit-fill-available;
     margin-right: 2em;
 }
 
-.topheader > button {
+
+header > button {
   width: 6em;
   color:rgb(14, 14, 147);
   font-family: var(--rigid);
@@ -127,6 +128,11 @@ max-height: -webkit-fill-available;
   background-color: white;
   cursor: pointer;
   font-size: x-large;
+
+}
+
+header > button > a {
+  text-decoration: none;
 
 }
 
@@ -190,6 +196,8 @@ max-height: -webkit-fill-available;
   height: 0.3em;
   
 }
+
+
 
 .grayProgresBar {
   background-color: gray;
@@ -280,42 +288,39 @@ height: 0.3em;
     padding: 4rem;
   }
 
-  #content1 {
-  color: white;
-  }
-  
-  .slide:nth-child(2) {
-    border-width: 3px;
-    border-style: solid;
-
-
-  }
-
-  
-  
-  .slide:nth-child(3) {
+  .slide:nth-child(2), 
+  .slide:nth-child(3),
+  .slide:nth-child(4), 
+  .slide:nth-child(5), 
+  .slide:nth-child(6) {
     border-width: 3px;
     border-style: solid;
     border-left-style: solid;
   }
 
+#content1 {
+  color: white;
+  }
+
+  #pencils {
+    margin-top: 2em;
+  }
+
+.content3 > p {
+  padding-left: 8em;
+  padding-right: 6em;
+  text-align: left;
+}
+
+  
 
 
-  .slide:nth-child(4) {
-    border-width: 3px;
-    border-style: solid;
-    border-left-style: solid;  }
-
-  .slide:nth-child(5) {
-    border-width: 3px;
-    border-style: solid;
-    border-left-style: solid;  }
+  
+  
 
 
-  .slide:nth-child(6) {
-    border-width: 3px;
-    border-style: solid;
-    border-left-style: solid;  }
+
+  
 
 
 
@@ -378,7 +383,7 @@ height: 0.3em;
   color: var(--white);
 }
 
-.startButton > a, .nextButton > a {
+.startButton > a {
   text-decoration: none;
 }
 
