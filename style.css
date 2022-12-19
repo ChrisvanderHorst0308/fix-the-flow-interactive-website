@@ -16,8 +16,7 @@
     
   }
 
-  p {
-    min-height: 100vh;
+  p, a {
     font-family: var(--rigid);
     color: var(--dark-blue);
     
@@ -259,11 +258,8 @@ height: 0.3em;
     cursor: pointer;
     justify-content: center;
   }
+
   
-  /* .slide-arrow:hover,
-  .slide-arrow:focus {
-    opacity: 1;
-  } */
   
   #slide-arrow-prev {
     left: 10px;
@@ -282,7 +278,7 @@ height: 0.3em;
     color:#090940;
   }
   
-  .slide:nth-child(1) {
+  .slide:nth-child(1), .slide:nth-child(7) {
     background-color: #090940;
     color: white;
     padding: 4rem;
@@ -293,39 +289,77 @@ height: 0.3em;
   .slide:nth-child(4), 
   .slide:nth-child(5), 
   .slide:nth-child(6) {
-    border-width: 3px;
+    border-width: 5px;
     border-style: solid;
-    border-left-style: solid;
+    border-right-style: 1px;
+    /* border-left-style: solid; */
   }
+/* handlettering content---------------------  */
 
-#content1 {
-  color: white;
-  }
+#content1{
+  margin-top: -2em;
+}
+
+#content1a {
+  color: white!important;
+}
 
   #pencils {
     margin-top: 2em;
   }
-
-.content3 > p {
+/* contten 2 */
+#handLettering1mp4 {
+  margin-top: -1em;
+}
+/* content 3 */
+#content3 > p {
   padding-left: 8em;
   padding-right: 6em;
   text-align: left;
 }
+/* content 4 */
+#handLettering2mp4 {
+  margin-top: -1em;
+}
+
+/* content 5  */
+
+/* content 6 */
+
+#content6p {    
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2em;
+}
+
+#content6 > a {
+  margin-top: 1em;
+  background-color:#090940;
+  color: white;
+}
+
+.list > li {
+  margin-bottom: .5em;
+  list-style: none;
+}
+
+.list > li > a {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+  
+  
+
+
 
   
 
 
-  
-  
 
 
-
-  
-
-
-
-
-/* ///////////top image////////////////// */
+/* ///////////top image index////////////////// */
   
 .topimage {
 
@@ -353,14 +387,6 @@ height: 0.3em;
   }
 
   /* /////////opmaak content main///////////////// */
-
-
-
-
-.HandLettering {
-
-  text-align: center;
-}
 
 .startButton {
 
@@ -407,6 +433,8 @@ height: 0.3em;
 
   footer > img {
     max-inline-size: -webkit-fill-available;
+    position: absolute;
+    left: 0;
 
   }
 
