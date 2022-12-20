@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 26.66px;
-  font-weight: 700;
+  
 }
 
 h5 {
@@ -196,6 +196,11 @@ header > button > a {
   
 }
 
+.plusProgresBar {
+  width: 50%;
+  animation-name: progresbarplus;
+}
+
 
 
 .grayProgresBar {
@@ -238,12 +243,13 @@ height: 0.3em;
     width: 100%;
     display: flex;
     overflow: hidden;
-    scroll-behavior: smooth;
+    scroll-behavior:auto;
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
+
   .slide-arrow {
     position: absolute;
     display: flex;
@@ -259,6 +265,38 @@ height: 0.3em;
     justify-content: center;
   }
 
+  
+
+  .jump {
+    animation-name: jump;
+    animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+    animation-duration: 1.2s;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes jump {
+    0% {
+      transform: scale(1, 1) translateY(0);
+    }
+    10% {
+      transform: scale(1.1, 0.9) translateY(0);
+    }
+    30% {
+      transform: scale(0.9, 1.1) translateY(-5rem) rotate(10deg);
+    }
+    50% {
+      transform: scale(1.05, 0.95) translateY(0);
+    }
+    57% {
+      transform: scale(1, 1) translateY(-0.5rem) rotate(-2deg);
+    }
+    64% {
+      transform: scale(1, 1) translateY(0);
+    }
+    100% {
+      transform: scale(1, 1) translateY(0);
+    }
+  }
   
   
   #slide-arrow-prev {
@@ -276,6 +314,8 @@ height: 0.3em;
     height: 100%;
     flex: 1 0 100%;
     color:#090940;
+    display: inline-block;
+    
   }
   
   .slide:nth-child(1), .slide:nth-child(7) {
@@ -283,7 +323,8 @@ height: 0.3em;
     color: white;
     padding: 4rem;
   }
-
+  
+  
   .slide:nth-child(2), 
   .slide:nth-child(3),
   .slide:nth-child(4), 
@@ -292,6 +333,7 @@ height: 0.3em;
     border-width: 5px;
     border-style: solid;
     border-right-style: 1px;
+    display: inline-block;
     /* border-left-style: solid; */
   }
 /* handlettering content---------------------  */
@@ -349,7 +391,43 @@ height: 0.3em;
   color: var(--white);
 }
 
+.greenProgresBar {
+  width: 1em;
+}
+
+  /*mensentekenen-------------------  */
+  #mensenTekenenContent1, #mensenTekenenContent3, #mensenTekenenContent4{
+    width: 20em;
+    display: inline-block;
+    text-align: left;
+  }
+
+
+  /* content1 */
+  #mensenTekenenContent1 {
+    margin-top: -3em;
+    text-align: -webkit-center;
+  }
+  #mensenTekenenContent1 > h3{
   
+  width: 20em;
+  }
+
+  #mensenTekenenContent1p {
+    color: var(--white);
+  }
+
+  /* content 2 */
+
+  /* content 3 */
+  #mensenTekenenContent3 {
+    margin-top: 6em;
+
+  }
+
+ 
+
+   
   
 
 

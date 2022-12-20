@@ -6,9 +6,11 @@ let plusProgress = document.getElementById('')
 
 nextButton.addEventListener('click', () => {
     let slideWidth = slide.clientWidth;
-    
+  
   slidesContainer.scrollLeft += slideWidth;
 });
+
+
 
 
 prevButton.addEventListener('click', () => {
@@ -16,3 +18,5 @@ prevButton.addEventListener('click', () => {
 
   slidesContainer.scrollLeft -= slideWidth;
 });
+
+
