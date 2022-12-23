@@ -4,6 +4,8 @@ let prevButton = document.getElementById('slide-arrow-prev');
 let nextButton = document.getElementById('slide-arrow-next');
 let plusProgress = document.getElementById('')
 
+   
+
 nextButton.addEventListener('click', () => {
     let slideWidth = slide.clientWidth;
   
