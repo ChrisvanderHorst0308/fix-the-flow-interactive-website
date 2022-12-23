@@ -33,7 +33,7 @@
     display :grid;
     row-gap: 5px;
     grid-template-columns: 4fr 2.9fr 4fr;
-    grid-template-rows: 0.fr 0.2fr 7fr 0.2fr;
+    grid-template-rows: 0.4fr 0.2fr 7fr 0.2fr;
     grid-template-areas:
     'L h h'
     'n n n'
@@ -656,7 +656,7 @@ height: 0.3em;
     text-align: -webkit-center;
   }
   #mensenTekenenContent1 > h3{
-  
+  margin-top: 1em;
   width: 20em;
   }
 
