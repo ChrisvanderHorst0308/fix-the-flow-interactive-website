@@ -12,9 +12,6 @@ nextButton.addEventListener('click', () => {
   slidesContainer.scrollLeft += slideWidth;
 });
 
-
-
-
 prevButton.addEventListener('click', () => {
     let slideWidth = slide.clientWidth;
 
