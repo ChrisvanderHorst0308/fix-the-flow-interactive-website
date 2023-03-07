@@ -1,7 +1,7 @@
 
 
-# Titel
-Slide animatie mini cursus
+# Slide animatie mini cursus
+
 
 
 ## User Story
